@@ -1,5 +1,4 @@
 import { Container } from "../container";
-import { BackgroundBeams } from "../ui/background-beams";
 import { FadeIn } from "../uis/FadeIn";
 
 export const Hero = () => {
@@ -13,7 +12,6 @@ export const Hero = () => {
                    <p className="mt-6 text-xl text-neutral-600 text-balance">
                         We are the community of Muslim Students across 21 Higher Institutions in Lagos State.
                     </p>
-                    <BackgroundBeams />
                 </FadeIn>
             </Container>
         </div>

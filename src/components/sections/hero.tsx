@@ -1,4 +1,5 @@
 import { Container } from "../container";
+import { BackgroundBeams } from "../ui/background-beams";
 import { FadeIn } from "../uis/FadeIn";
 
 export const Hero = () => {
@@ -9,14 +10,10 @@ export const Hero = () => {
                     <h1 className="font-display text-5xl font-black tracking-tight text-neutral-950 text-balance sm:text-7xl">
                     COHI, MSSN Lagos State Area Unit
                     </h1>
-                    {/* <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
-                        Council of Higher Institutions, Muslim Students&#39; society of Nigeria, Lagos State Area Unit.
-                    </h1> */}
-                    <p className="mt-6 text-xl text-neutral-600 text-balance">
+                   <p className="mt-6 text-xl text-neutral-600 text-balance">
                         We are the community of Muslim Students across 21 Higher Institutions in Lagos State.
-
-
                     </p>
+                    <BackgroundBeams />
                 </FadeIn>
             </Container>
         </div>

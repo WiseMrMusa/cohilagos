@@ -1,5 +1,6 @@
-import { Container } from "../container";
+
 import { FadeIn } from "../uis/FadeIn";
+import { Container } from '@/components/Container';
 
 export const Hero = () => {
     return(
